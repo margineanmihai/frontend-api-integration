@@ -1,0 +1,36 @@
+.home {
+    text-align: center;
+  }
+.home-content {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  
+    .books-header {
+      display: flex;
+      margin-left: 20px;
+
+      .books-title {
+        text-align: left;
+      }
+  
+      button {
+        margin-left:20px
+      }
+    }
+  
+    .book-form {
+        
+        input[type="text"] {
+            width:300px;
+        }
+
+        .submit-btn {
+            display: flex;
+            margin-left: 20px;
+        }
+    }
+  }
